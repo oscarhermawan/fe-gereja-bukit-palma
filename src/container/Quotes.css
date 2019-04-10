@@ -1,0 +1,28 @@
+.quote-background{
+  margin:40px 0px;
+  background-color: black;
+}
+
+.quote-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.quote{
+  color: white;
+  text-align: center;
+  padding: 30px 40px;
+}
+
+.quote span{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.quote p{
+  margin-top: 0px;
+}
+
+.quote i{
+  color: yellow;
+}

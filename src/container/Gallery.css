@@ -1,0 +1,36 @@
+.gallery-wrapper{
+  margin:100px auto;
+  max-width: 1200px;
+}
+
+.gallery-wrapper h2{
+  color: #161619;
+  text-align: center;
+  font-weight:  800;
+  text-transform: uppercase;
+}
+
+.gallery-tambah-jarak{
+  margin-bottom: 40px;
+}
+
+.photo-booth{
+  padding:5px 20px;
+}
+
+/* .photo-booth>img{
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+} */
+
+@media only screen and (max-width: 1020px){
+  .gallery-wrapper{
+    margin:30px auto;
+  }
+
+  .photo-booth>img{
+    height: 200px;
+    object-fit: cover;
+  }
+}

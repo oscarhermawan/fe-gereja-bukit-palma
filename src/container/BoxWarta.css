@@ -1,0 +1,18 @@
+.box-content{
+  padding: 5px 20px;
+}
+
+.box-content h2{
+  color: #161619;
+  text-transform: uppercase;
+}
+
+.box-content>h3{
+  margin-top: -10px;
+  text-transform: uppercase;
+  color: #808808;
+}
+
+.box-content>p{
+  margin-top:-12px;
+}

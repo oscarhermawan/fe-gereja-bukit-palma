@@ -1,0 +1,12 @@
+.copyright-footer{
+  font-size: 12px;
+  background-color: black;
+  padding: 15px 0px;
+  color: white;
+  text-align: center;
+}
+
+.copyright-footer:after{
+  color: yellow;
+  content: ' Oscar Hermawan';
+}

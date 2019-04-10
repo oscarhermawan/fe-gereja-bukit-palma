@@ -1,0 +1,60 @@
+.garis-bawah{
+  width: 60px;
+  margin: auto;
+  margin-top:-15px;
+  margin-bottom:10px;
+  height: 3px;
+  background-color: gray;
+}
+
+.block-2{
+  float: left;
+  width: 50%;
+}
+
+.block-2-mini{
+  float: left;
+  width: 50%;
+}
+
+.block-3{
+  float: left;
+  width: 33.33%;
+}
+
+.block-4{
+  float: left;
+  width: 25%;
+}
+
+.clear-both{
+  clear:left;
+  clear:right;
+}
+
+.clear-left{
+  clear:left;
+}
+
+@media only screen and (max-width: 1020px){
+  .block-3{
+    width: 50%;
+  }
+
+  .block-4{
+    float: left;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .block-3{
+    width: 100%;
+  }
+
+  .block-2-mini{
+    float: left;
+    width: 100%;
+  }
+
+}
